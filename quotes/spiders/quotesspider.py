@@ -11,10 +11,10 @@ class QuotesspiderSpider(scrapy.Spider):
     name = 'quotesspider'
     allowed_domains = ['quotes.toscrape.com']
     start_urls = ['http://quotes.toscrape.com/']
-    custom_settings = {
-    'LOG_FILE': 'logs/quotes.log',
-    'LOG_LEVEL':'DEBUG'
-     }
+    #custom_settings = {
+    #'LOG_FILE': 'logs/quotes.log',
+    #'LOG_LEVEL':'DEBUG'
+    # }
 
 
     def parse(self, response):
