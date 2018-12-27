@@ -13,8 +13,8 @@ BOT_NAME = 'quotes'
 
 SPIDER_MODULES = ['quotes.spiders']
 NEWSPIDER_MODULE = 'quotes.spiders'
-FEED_URI = '../data_quotes/%(name)s%(time)s.csv'
-FEED_FORMAT = 'csv'
+#FEED_URI = '../data_quotes/%(name)s%(time)s.csv'
+#FEED_FORMAT = 'csv'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'quotes (+http://www.yourdomain.com)'
